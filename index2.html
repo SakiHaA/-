@@ -3,17 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <title>初めてのHTML</title>
-    <!-- relは読み込むファイルの種類 stylesheetはCSSファイルであることを意味する !-->
+    <!-- relは読み込むファイルの種類 stylesheetはCSSファイルであることを意味する -->
     <link rel="stylesheet" href="1.css" />
   </head>
   <body>
-    <h1>学習用</h1>
-    <h2 class="title-1">HTMLとは</h2>
-    <p>文字の言語</p>
-    <h2 class="title-2">CSSとは</h2>
-    <p>レイアウトの言語</p>
-    <h3>javascriptとは</h3>
-    <p>動きをつける言語</p>
-    <script src="app.js"></script>
+    <div class = "main">
+        <h1>学習用</h1>
+        <h2 class="title-1">HTMLとは</h2>
+        <!-- idはWEB内でタグが１つだけ -->
+        <p id="id-method">文字の言語</p>
+        <h2 class="title-2">CSSとは</h2>
+        <p>レイアウトの言語</p>
+        <h3>javascriptとは</h3>
+        <p>動きをつける言語</p>
+        <script src="app.js"></script>
+    </div>
   </body>
 </html>
