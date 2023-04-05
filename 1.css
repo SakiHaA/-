@@ -1,0 +1,19 @@
+h1{
+    color: red;
+    font-size: 30px;
+}
+
+/* command+?でもショートカット可　クラス名を付けるときは.がいる*/
+.title-1{
+    color :orange;
+    font-size :25px;
+}
+
+.title-2{
+    color :silver;
+    font-size :25px;
+}
+
+h3{
+    color: green;
+}
