@@ -1,7 +1,7 @@
 let hello = 'Hello World';
 alert(hello);
 
-var nickname = "taro"
+var nickname = "jon"
 console.log(nickname)
-nickname = "ichiro"
+nickname = "jonny"
 console.log(nickname)
