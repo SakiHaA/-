@@ -5,3 +5,6 @@ var nickname = "jon"
 console.log(nickname)
 nickname = "jonny"
 console.log(nickname)
+
+
+var height
