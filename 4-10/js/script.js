@@ -1,12 +1,6 @@
-const text = document.querySelector('#text');
-const count = document.querySelector('#count');
+const isAgreed = document.querySelector('#check');
+const btn = document.querySelector('#btn');
 
-text.addEventListener('keyup', () => {
-    count.textContent = text.value.length;
-    
-    if (text.value.length > 100) {
-        count.classList.add('alert');
-    }   else {
-        count.classList.remove('alert');
-    }
+isAgreed.addEventListener('chenge', () => {
+    btn.disabled = !isAgreed.checked;
 });
