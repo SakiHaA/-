@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(string[] args) {
+    public static void test(string[] args) {
         int isHungry = 1;
         String food = "おにぎり";
         System.outprintIn("こんにちは");
