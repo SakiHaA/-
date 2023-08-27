@@ -1,5 +1,5 @@
 public class VariableSample1 {
-
+	
 	public static void main(String[] args) {
 		// 変数宣言
 		String name;  //名前
