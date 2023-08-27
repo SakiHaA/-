@@ -1,5 +1,5 @@
 public class VariableSample3 {
-
+	
 	public static void main(String[] args) {
 		// 変数宣言 + 代入
 		int dan = 2;
