@@ -36,7 +36,32 @@ public class TypeConversionSample {
 		// i = d;
 		// ↑は全部エラーになる
 		
-		
+		System.out.println(100 * 1.1);
+
+		i = 100;
+		d = 1.1;
+
+		System.out.println(i * d);
+
+		System.out.println(100 + "10");
+		System.out.println("----------------");
+
+		// 暗黙的型変換
+		b = 10;
+		s = 20;
+		i = 30;
+		d = 1.1;
+
+		b = (byte)s;
+
+		s = (short)i;
+
+		i = (int)d;
+
+		System.out.println(b);
+		System.out.println(s);
+		System.out.println(i);
+		System.out.println(d);
 		}
 
 }
