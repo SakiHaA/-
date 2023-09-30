@@ -24,7 +24,18 @@ public class MethodSample1 {
 		// avg(引数が配列)を呼び出す
 		ret = avg(scores);
 		System.out.println("avg(引数が配列)の戻り値" + ret);
-	
+		
+		int sampleInt = 10;
+		// sample1を呼び出す
+		sample1(sampleInt);
+		// sampleIntの値を画面に表示する
+		System.out.println("sampleIntの値:" + sampleInt);
+		
+		int[] sampleIntArr = {10};
+		//sample2を呼び出す
+		sample2(sampleIntArr);
+		// sampleIntArr[0]の値を画面に表示する
+		System.out.println("sampleIntArr[0]の値:" + sampleIntArr[0]);
 	}
 	
 	public static void samplePrint1() {
@@ -56,5 +67,17 @@ public class MethodSample1 {
 		}
 		double tempAvg = total / scores.length;
 		return tempAvg;
+	}
+	
+	public static void sample1(int x) {
+		System.out.println("sampleが呼び出されました。加算前x:" + x);
+		x = x + 1;
+		System.out.println("sampleが呼び出されました。加算後x:" + x);
+	}
+	
+	public static void sample2(int [] x) {
+		System.out.println("sample1が呼び出されました。加算前x:" + x);
+		x[0] = x[0] + 1;
+		System.out.println("sample2が呼び出されました。加算後x:" + x);
 	}
 }
